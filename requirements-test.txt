@@ -1,0 +1,3 @@
+# 独立CPU测试环境；不要与摄像头环境的opencv-python叠装。
+numpy==2.4.6
+opencv-python-headless==5.0.0.93

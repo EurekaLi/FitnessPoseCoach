@@ -1,0 +1,6 @@
+# 先按目标硬件安装兼容的PyTorch/torchvision，再安装辅助依赖。
+numpy==2.4.6
+opencv-python==5.0.0.93
+onnx==1.23.2
+onnxruntime-gpu==1.30.0
+tqdm==4.70.1

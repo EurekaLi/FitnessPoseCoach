@@ -1,0 +1,11 @@
+{
+  "squat_home_deg": 165.0,
+  "squat_away_deg": 150.0,
+  "push_home_deg": 145.0,
+  "push_away_deg": 115.0,
+  "jump_open_leg_ratio": 0.75,
+  "dwell_s": 0.06,
+  "stable_side": true,
+  "stable_side_actions": ["squat"],
+  "squat_signal": "hip_height"
+}

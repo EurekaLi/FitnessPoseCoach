@@ -1,0 +1,3 @@
+# 只补在fitness-export克隆环境，保留正式测试环境不变。
+onnxscript==0.7.2
+onnx_ir==1.0.0

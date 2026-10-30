@@ -1,0 +1,4 @@
+torch==2.14.1+cu132
+numpy==2.4.6
+onnx==1.23.2
+onnxruntime-gpu==1.30.0

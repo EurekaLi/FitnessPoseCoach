@@ -1,0 +1,6 @@
+# Windows部署环境与WSL冻结测试环境隔离；不用CPU版onnxruntime替换GPU版。
+numpy==2.4.6
+opencv-python==5.0.0.93
+onnx==1.23.2
+onnxruntime-gpu[cuda,cudnn]==1.30.0
+tqdm==4.70.1

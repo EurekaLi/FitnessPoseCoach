@@ -1,0 +1,5 @@
+# 使用原生TensorRT接口；不据此假设ORT的TensorRT执行提供器与11.x兼容。
+--extra-index-url https://pypi.nvidia.com
+# 优先取得NVIDIA官方Windows轮子，避免PyPI占位源码包在元数据阶段隐式下载。
+--only-binary=tensorrt-cu13-libs,tensorrt-cu13-bindings
+tensorrt-cu13==11.4.0.106

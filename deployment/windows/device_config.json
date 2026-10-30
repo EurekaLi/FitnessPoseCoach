@@ -1,0 +1,29 @@
+{
+  "schema": 1,
+  "platform": "windows",
+  "python_relative_to_this_directory": ".venv/Scripts/python.exe",
+  "camera": {
+    "device_name_observed": "FF-Camera",
+    "index": 0,
+    "backend": "DSHOW",
+    "requested_width": 640,
+    "requested_height": 480,
+    "requested_fps": 30,
+    "verified_shape_hwc": [480, 640, 3],
+    "verified_frames": 15,
+    "save_images_or_video": false
+  },
+  "onnxruntime": {
+    "version": "1.30.0",
+    "baseline_providers": ["CUDAExecutionProvider", "CPUExecutionProvider"],
+    "preload_nvidia_site_packages": true,
+    "note": "实际模型允许必要的CPU算子；设备检查的MatMul单独禁止CPU回退并核对GPU执行记录"
+  },
+  "tensorrt": {
+    "version": "11.4.0.106",
+    "interface": "native_python_api",
+    "fp16_toy_engine_build_and_load_verified": true,
+    "check_report": "outputs/deployment_environment/windows_tensorrt.json",
+    "note": "不是ORT TensorRT EP兼容声明；真实模型FP16构建和推理尚未执行"
+  }
+}
